@@ -10,9 +10,9 @@ function z(){
     }
     x();
 }
-z();
+z();    //output  : 100,100
 
-//output  : 100,100
+
 
 
 // function x(){
