@@ -1,4 +1,6 @@
 import './App.css';
+import CounterComponent from "./CounterComponent/CounterComponent";
+import PockemonComponent from './PockemonComponent/PockemonComponent';
 const number = 4;
 const fname = "Atharva";
 const lname = "Kasodekar";
@@ -7,7 +9,7 @@ const year= new Date().getFullYear() ;
 function App() {
   return (
     <div className="App">
-      <div>
+      {/* <div>
       <h1>List of my favourite</h1>
         <ul>
           <li>Bacon</li>
@@ -24,7 +26,10 @@ function App() {
       <div>
         <h2>Created By {`${fname}`}</h2>
         <h2>Copyright {`${year}`}</h2>
-      </div>
+      </div> */}
+      
+      {/* <CounterComponent/> */}
+      <PockemonComponent/>
 
     </div>
   );
